@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Rupak/static/css/main.0c48380d.css",
+    "main.js": "/Rupak/static/js/main.681346fa.js",
+    "static/js/787.041549d0.chunk.js": "/Rupak/static/js/787.041549d0.chunk.js",
+    "static/media/boy2.jpg": "/Rupak/static/media/boy2.df5a53b64d408e8a26b5.jpg",
+    "static/media/boy3.jpg": "/Rupak/static/media/boy3.aef790af696510a0f50e.jpg",
+    "static/media/boy4.jpg": "/Rupak/static/media/boy4.80208ca204d069346179.jpg",
+    "index.html": "/Rupak/index.html",
+    "main.0c48380d.css.map": "/Rupak/static/css/main.0c48380d.css.map",
+    "main.681346fa.js.map": "/Rupak/static/js/main.681346fa.js.map",
+    "787.041549d0.chunk.js.map": "/Rupak/static/js/787.041549d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c48380d.css",
+    "static/js/main.681346fa.js"
+  ]
+}
