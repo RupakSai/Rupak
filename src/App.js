@@ -8,6 +8,7 @@ import Contact from './components/Contact.jsx'
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
