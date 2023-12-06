@@ -1,6 +1,6 @@
 import React from 'react'
 import './Style.css';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import boyc from'./boyc.jpg'
@@ -9,9 +9,13 @@ import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const Contact = () => {
+  const [showNotification, setShowNotification] = useState(false);
   useEffect(() => {
     AOS.init({
       easing: 'ease',
@@ -23,6 +27,15 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    // Your form submission logic here
+
+    // If the submission is successful, show a notification
+    setShowNotification(true);
+
+    // Hide notification after 3 seconds
+    setTimeout(() => {
+      setShowNotification(false);
+    }, 3000);
 
     emailjs.sendForm('service_jqqmub9', 'template_8ohizwd', form.current, 'AqJny55V0V7pXWRAN')
       .then((result) => {
@@ -50,8 +63,11 @@ const Contact = () => {
         <span className="contact-item">
           <input type="text" className='contact-inp' data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="false" name='message' required />
         </span>
-        <input type="submit" value="Submit" className='c-submit' />
+        <button type='submit' className='c-submit' >Submit!</button>
         </form>
+        {showNotification && (
+        <div className="notification">Submitted successfully</div>
+      )}
       </div>
       <div className="contact-2">
         <img src={boyc} alt="" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="false" />
