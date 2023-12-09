@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rupak/static/css/main.bee107e5.css",
-    "main.js": "/Rupak/static/js/main.24f99e83.js",
+    "main.css": "/Rupak/static/css/main.f7e37b03.css",
+    "main.js": "/Rupak/static/js/main.2c4dbec3.js",
     "static/js/787.041549d0.chunk.js": "/Rupak/static/js/787.041549d0.chunk.js",
     "static/media/SS1.png": "/Rupak/static/media/SS1.d1679880535a56cdea7e.png",
     "static/media/boyc.jpg": "/Rupak/static/media/boyc.ce83ff0ad3ef8f5d17ac.jpg",
@@ -9,12 +9,12 @@
     "static/media/boy3.jpg": "/Rupak/static/media/boy3.aef790af696510a0f50e.jpg",
     "static/media/boy4.jpg": "/Rupak/static/media/boy4.80208ca204d069346179.jpg",
     "index.html": "/Rupak/index.html",
-    "main.bee107e5.css.map": "/Rupak/static/css/main.bee107e5.css.map",
-    "main.24f99e83.js.map": "/Rupak/static/js/main.24f99e83.js.map",
+    "main.f7e37b03.css.map": "/Rupak/static/css/main.f7e37b03.css.map",
+    "main.2c4dbec3.js.map": "/Rupak/static/js/main.2c4dbec3.js.map",
     "787.041549d0.chunk.js.map": "/Rupak/static/js/787.041549d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bee107e5.css",
-    "static/js/main.24f99e83.js"
+    "static/css/main.f7e37b03.css",
+    "static/js/main.2c4dbec3.js"
   ]
 }
