@@ -37,7 +37,7 @@ const Projects = () => {
           <img src={project.img} alt="" />
           <span className='card-det'>
             <span style={{'color':'blue', 'fontSize':'20px'}}>{project.title}</span>
-            <span style={{'fontSize':'15px'}}>{project.desc}</span>
+            <span style={{'fontSize':'15px'}} className='projects-desc-1'>{project.desc}</span>
             <span><a href={project.weblink}>Visit <TbExternalLink className='ext-icon'/></a><a href={project.gitlink}><FaSquareGithub className='git-icon' /></a></span>
           </span>
         </div>

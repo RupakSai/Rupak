@@ -9,6 +9,8 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from './components/Footer.jsx';
+import './components/Style.css'
+import { FiLoader } from "react-icons/fi";
 
 
 function App() {
@@ -20,6 +22,10 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <div className='mobile'>
+          <span>Coming soon for small screens <FiLoader /></span>
+          <span>Check out on Desktop/Laptop</span>
+      </div>
     </div>
   );
 }
